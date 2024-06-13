@@ -1,0 +1,20 @@
+.viewEventMain {
+  border-radius: 8px;
+  padding: 8px 10px;
+  color: #fff;
+}
+.text {
+  margin-bottom: 3px;
+  font-size: 15px !important;
+  width: 100%;
+  text-transform: capitalize;
+}
+.EventCol {
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.time {
+  margin-bottom: 3px;
+  font-size: 15px !important;
+  width: 100%;
+}

@@ -1,0 +1,148 @@
+.mainContainer {
+  padding: 30px;
+  height: calc(100vh - 79px);
+  overflow-y: scroll;
+}
+
+.sideBar_main {
+  box-shadow: 0px 5px 25px #52575d1a;
+  border-radius: 20px;
+  width: 100%;
+  background-color: var(--white-color);
+  padding: 15px 25px;
+  height: calc(100vh - 220px);
+  overflow-y: scroll;
+}
+
+
+.mainHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detail_btn {
+  background: var(--dashboard-main-color);
+  height: 35px;
+  padding: 7px 20px;
+}
+
+.clean_btn {
+  padding: 7px 20px;
+  background-color: transparent;
+  color: var(--text-color-black);
+  border: 1px solid #d4d4d4;
+}
+
+.search_box {
+  min-height: 500px;
+}
+
+.side_btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.message {
+  min-height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+}
+
+.mail_name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*  chat history */
+
+.item-incoming {
+  display: flex;
+  justify-content: flex-start;
+  background-color: #e6f7ff;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  max-width: 80%;
+}
+
+.item-outgoing {
+  display: flex;
+  justify-content: flex-end;
+  background-color: #d9f7be;
+  border-radius: 20px;
+  padding: 10px;
+  margin-bottom: 10px;
+  align-items: center;
+  max-width: 80%;
+}
+
+.conversation-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.conversation-wrapper .item-outgoing {
+  align-self: flex-end;
+}
+
+.scrollable-list {
+  height: 450px;
+  overflow-y: scroll;
+  scrollbar-width: thin;
+  scrollbar-color: darkgrey transparent;
+}
+
+.leftSideBar {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+/* Chrome, Safari, Edge */
+.scrollable-list::-webkit-scrollbar {
+  width: 10px;
+}
+
+.scrollable-list::-webkit-scrollbar-thumb {
+  background-color: darkgrey;
+  border-radius: 4px;
+}
+
+.scrollable-list::-webkit-scrollbar-thumb:hover {
+  background-color: grey;
+}
+
+.dialItemCommon {
+  cursor: pointer;
+  transition: background 0.4s;
+}
+
+.dialItemActive {
+  background: #16a085;
+}
+
+.dialItemUnActive {
+  background: white;
+}
+
+.modalBody {
+  padding: 0;
+  width: 590px !important;
+  background-color: white;
+}
+
+.contractItem {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.contractItem:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,78 @@
+.mainContainer {
+  padding: 15px;
+  height: calc(100vh - 79px);
+}
+
+.headerContainer {
+  padding: 10px 30px 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerContainer h3 {
+  font-family: "Bebas-Neue-bold";
+  font-size: 35px;
+  color: #242342;
+}
+
+.buttonDiv {
+  display: flex;
+  gap: 15px;
+}
+
+.teamMemberImgDiv {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  border: 1px solid #707070;
+  position: absolute;
+  top: -22px;
+}
+
+.teamMemberImgDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 50%;
+}
+
+.countMember {
+  position: absolute;
+  left: 125px;
+  top: -7px;
+  font-size: 12px;
+}
+
+.threeDots {
+  cursor: pointer;
+}
+
+.paginationDiv {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 30px 20px 30px;
+}
+
+.addProjectBtn {
+  background-color: var(--dashboard-main-color) !important;
+  color: var(--white-color) !important;
+  padding: 0;
+  width: 143px;
+  border-radius: 3px;
+  font-size: 14px !important;
+  font-family: "Open-Sans-medium" !important;
+  border: 1px solid var(--dashboard-main-color) !important;
+}
+
+.call_icon {
+  font-size: 30px;
+  color: var(--dashboard-main-color);
+}
+
+.addProjectBtnTrans {
+  background-color: transparent;
+  border: 1px solid #d5d5d5;
+  color: #cbcbcb;
+}

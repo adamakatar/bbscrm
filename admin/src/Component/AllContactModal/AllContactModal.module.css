@@ -1,0 +1,50 @@
+.mainHead {
+  font-size: 18px;
+  font-family: "Open-Sans-bold";
+  color: var(--dashboard-main-color);
+  margin-bottom: 5px;
+  flex-shrink: 0;
+}
+
+.text {
+  font-size: 16px;
+  color: var(--text-color-black);
+  margin-bottom: 5px;
+  width: 100%;
+  white-space: pre-wrap;
+  text-transform: capitalize;
+}
+
+.viewContactMain {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.mainHeading {
+  color: var(--dashboard-main-color);
+  font-family: "Bebas-Neue-bold";
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+
+@media screen and (max-width:992px) {
+  .mainHead {
+    font-size: 17px;
+  }
+
+  .text {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width:480px) {
+  .mainHead {
+    font-size: 16px;
+  }
+
+  .text {
+    font-size: 14px;
+  }
+}

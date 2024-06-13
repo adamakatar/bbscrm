@@ -1,0 +1,17 @@
+.BreadcrumbMainDiv {}
+
+.BreadcrumbMainDiv ol li::before {
+  font-size: 16px !important;
+  color: var(--dashboard-main-color) !important;
+}
+
+.BreadcrumbMainDiv ol li,
+.BreadcrumbMainDiv ol li a {
+  font-family: "Open-Sans-semiBold";
+  font-size: 16px;
+  color: var(--dashboard-main-color);
+  text-transform: capitalize;
+  margin-bottom: 0;
+  cursor: pointer;
+
+}

@@ -1,0 +1,48 @@
+.addProjectModal_main {
+  padding: 0 35px;
+}
+.addProjectModal_main h4 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--dashboard-main-color);
+  font-family: "Open-Sans-bold";
+}
+.btn_main {
+  margin-top: 20px;
+}
+.btn {
+  width: 100%;
+  padding: 17px 0;
+}
+.addProject_row {
+  row-gap: 30px;
+}
+.label {
+  color: var(--dashboard-main-color);
+  text-transform: capitalize;
+  font-family: "Open-Sans-bold";
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+.typeBtnContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid var(--placeholder-color);
+  cursor: pointer;
+}
+.typeBtn {
+  border-right: 2px solid var(--placeholder-color);
+  padding-block: 10px;
+  width: 25%;
+  text-align: center;
+}
+.typeBtn:last-child {
+  border-right: 0;
+}
+.activeBtn {
+  background-color: var(--dashboard-main-color);
+  color: white;
+}

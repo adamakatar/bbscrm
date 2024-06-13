@@ -1,0 +1,38 @@
+name: Brokerage Admin CI/CD
+
+on:
+  push:
+    branches: 
+      - test
+
+jobs:
+  build_admin:
+    runs-on: ubuntu-latest
+    steps: 
+
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install Node
+        uses: actions/setup-node@v2
+        with:
+            node-version: '18'
+
+      - name: Install module
+        run: npm install --force
+        working-directory: admin
+
+      - name: Build project
+        run: npm run build
+        working-directory: admin
+
+      - name: Configure SSH
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+            ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Change owner of directory
+        run: ssh -o StrictHostKeyChecking=no root@77.37.86.28 'sudo chown -R root:root ../home/projects/brokerage-admin/build'
+      
+      - name: Deploy with rsync
+        run: rsync -e 'ssh -o StrictHostKeyChecking=no' -r /home/runner/work/bbscrm/bbscrm/admin/build root@77.37.86.28:../home/projects/brokerage-admin/build

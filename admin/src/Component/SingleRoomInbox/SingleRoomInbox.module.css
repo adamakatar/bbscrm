@@ -1,0 +1,36 @@
+.all_rooms {
+  padding: 15px 30px;
+  cursor: pointer;
+  background-color: gray;
+  position: relative;
+}
+.all_rooms .heading {
+  font-family: "Open-Sans-bold";
+}
+.all_rooms .text {
+  font-size: 13px !important;
+  color: var(--label-color);
+  margin-bottom: 0 !important;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  display: -webkit-box;
+  overflow: hidden;
+}
+.hr_line {
+  border-bottom: 2px solid #f0f0f0;
+}
+.hr_line:last-child {
+  border-bottom: none;
+}
+.deleteEmailMain {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+}
+.dateText {
+  font-size: 13px !important;
+  color: var(--label-color);
+  margin-bottom: 0 !important;
+  text-align: end;
+  margin-top: 12px;
+}

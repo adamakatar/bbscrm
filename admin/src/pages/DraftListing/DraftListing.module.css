@@ -1,0 +1,100 @@
+.mainContainer {
+  padding: 15px;
+  height: calc(100vh - 79px);
+}
+
+.listing_head {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 15px;
+}
+
+.listing_head h4 {
+  font-family: "Bebas-Neue-bold";
+  font-size: 35px;
+  color: #242342;
+  margin-bottom: 0;
+}
+
+.actions_btn {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+}
+
+.detail_btn {
+  background: var(--dashboard-main-color);
+  margin-right: 5px;
+  border-radius: 10px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.edit_btn {
+  padding: 7px 20px;
+  /* background-color: transparent; */
+  /* color: var(--text-color-black); */
+  /* border: 1px solid #d4d4d4; */
+}
+
+.paginationDiv {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 30px 20px 30px;
+}
+
+.teamMemberImgDiv {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  border: 1px solid #707070;
+  position: absolute;
+  top: -22px;
+  background: #d6d6d6;
+}
+
+.teamMemberImgDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 50%;
+}
+
+.countMember {
+  position: absolute;
+  left: 90px;
+  top: -7px;
+  font-size: 12px;
+}
+
+.aCenter {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.linkText {
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--dashboard-main-color);
+  font-family: "Open-Sans-medium" !important;
+}
+
+.btnContainer {
+  background: var(--dashboard-main-color);
+  margin-right: 5px;
+  border-radius: 10px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.btnContainer svg {
+  cursor: pointer !important;
+}

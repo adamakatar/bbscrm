@@ -1,0 +1,14 @@
+.mainContainer {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.mainContainer div {
+  text-align: center;
+}
+.mainContainer p {
+  width: 80%;
+  margin: 0 auto 16px auto;
+  font-family: "Open-Sans-medium";
+}

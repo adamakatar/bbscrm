@@ -1,0 +1,384 @@
+.mainContainer {
+  padding: 30px;
+  height: calc(100vh - 79px);
+  overflow-y: scroll;
+}
+
+.sideBar_main {
+  box-shadow: 0px 5px 25px #52575d1a;
+  border-radius: 20px;
+  width: 100%;
+  background-color: var(--white-color);
+  padding: 15px 25px;
+  height: calc(100vh - 220px);
+  overflow-y: scroll;
+}
+
+.message_btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+.message_btn span {
+  display: flex;
+  align-items: center;
+  margin-left: 8px;
+}
+
+.send_icon {
+  font-size: 20px;
+}
+
+.list_main {
+  margin-top: 50px;
+}
+
+.list_inner {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+  color: var(--dashboard-main-color);
+  margin-bottom: 30px;
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+
+.list_inner p {
+  margin-bottom: 0px !important;
+  font-family: "Open-Sans-medium";
+}
+
+.icon {
+  font-size: 24px;
+}
+
+.list_innerClick {
+  background-color: var(--dashboard-main-color);
+  color: var(--white-color);
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 30px;
+  cursor: pointer;
+  padding: 8px 10px;
+  border-radius: 3px;
+}
+
+.list_innerClick p {
+  margin-bottom: 0px !important;
+  font-family: "Open-Sans-medium";
+}
+
+/* rooms */
+.room_main {
+  box-shadow: 0px 5px 25px #52575d1a;
+  border-radius: 20px;
+  height: calc(100vh - 220px);
+  overflow-y: scroll;
+  position: relative;
+}
+
+.inboxHead_main {
+  padding: 30px;
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+  background-color: var(--white-color);
+}
+
+.inboxHead_main .filterIcon {
+  font-size: 30px;
+  color: var(--text-color-black);
+  cursor: pointer;
+}
+
+.inboxHead_inner {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 12px;
+}
+
+.Home_icon {
+  font-size: 30px;
+}
+
+.inboxHead_inner h6 {
+  margin-bottom: 0 !important;
+}
+
+.hr_line {
+  border-bottom: 2px solid #f0f0f0;
+}
+
+.allAndUnread {
+  padding-top: 20px;
+  padding-bottom: 10px;
+  cursor: pointer;
+  position: sticky;
+  top: 92px;
+  background-color: var(--white-color);
+  z-index: 2;
+}
+
+.all p,
+.unRead p {
+  font-family: "Open-Sans-medium";
+  color: #c9c9c9;
+  margin-bottom: 0px;
+  padding-bottom: 10px;
+  border-bottom: 3px solid;
+  border-bottom-color: var(--placeholder-color);
+}
+
+.after_click {
+}
+
+.after_click p {
+  color: var(--dashboard-main-color);
+  border-bottom-color: var(--dashboard-main-color);
+}
+
+/* section3 */
+
+.emailHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.image_main {
+  width: 60px;
+  height: 60px;
+}
+
+.image_main img {
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 50%;
+  width: inherit;
+  height: inherit;
+}
+
+.mainHeading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nameAndMail_main h6 {
+  margin-bottom: 0px !important;
+}
+
+.nameAndMail_main p {
+  margin-bottom: 0px !important;
+  font-size: 12px !important;
+  color: var(--label-color);
+}
+
+.email_content {
+  margin-top: 20px;
+}
+
+.email_content h5 {
+  font-size: 29px !important;
+  color: var(--dashboard-main-color);
+  font-family: "Open-Sans-regular" !important;
+  margin-bottom: 20px;
+}
+
+.head_inner {
+  font-size: 15px !important;
+  color: var(--dashboard-main-color);
+  margin-bottom: 0px !important;
+}
+
+.email_text {
+  font-size: 15px !important;
+  color: var(--label-color);
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.send_image {
+  height: 359px;
+  margin: 30px 0;
+}
+
+.send_image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+/* Right Box */
+.rightBox {
+  background-color: var(--white-color);
+  box-shadow: 0px 5px 25px #52575d1a;
+  border-radius: 20px;
+  height: calc(100vh - 220px);
+  overflow-y: scroll;
+  padding: 40px 32px;
+}
+
+.rightBox .heading {
+  font-size: 29px;
+  font-family: "Open-Sans-semiBold";
+  color: var(--dashboard-main-color);
+  margin-bottom: 54px;
+}
+
+.mb31 {
+  margin-bottom: 31px;
+}
+
+/* Box */
+.box {
+  padding: 20px 30px;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+}
+
+.box h6 {
+  font-size: 16px;
+  font-family: "Open-Sans-medium";
+  color: var(--dashboard-main-color);
+}
+
+.box p {
+  font-size: 12px;
+  color: var(--label-color);
+  margin-top: 8px;
+}
+
+.selectedBox {
+  background-color: #e5f5ff !important;
+}
+
+.selectedBox p {
+  color: var(--text-color-black);
+}
+
+.textArea {
+  height: calc(859px - 550px);
+  overflow-y: scroll;
+}
+
+.quillClass {
+  height: calc(100% - 550px) !important;
+}
+
+.fileInner {
+  width: 100%;
+  border-radius: 15px;
+  background-color: var(--white-color);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  padding: 10px;
+  height: 180px;
+}
+
+.fileIconHead {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f6f8;
+  cursor: pointer;
+}
+
+.fileInnerMain {
+  position: relative;
+  margin: 20px 0;
+}
+
+.btnAndDropDown {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.fileInner p {
+  white-space: nowrap;
+  width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  margin-bottom: 0px;
+  font-size: 14px;
+  padding-top: 8px;
+  color: #777;
+  font-family: "Open-Sans-bold";
+}
+
+.addMore {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 125px;
+  border-radius: 10px;
+  box-shadow: 0px 0 5px 2px #0000000d;
+}
+
+.addMore p {
+  margin-bottom: 0px;
+}
+
+.templateNodata {
+  height: 80%;
+}
+.dateText {
+  font-size: 13px !important;
+  color: var(--label-color);
+  margin-bottom: 0 !important;
+  text-align: end;
+  margin-top: 12px;
+}
+/*  */
+.forwardBtnDiv {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+
+.emailBackIcon {
+  margin-bottom: 16px;
+}
+
+@media (max-width: 1360px) {
+  .sideBar_main {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .list_main {
+    margin-top: 32px;
+    display: flex;
+    justify-content: space-between;
+    overflow-x: auto;
+  }
+
+  .list_inner,
+  .list_innerClick {
+    margin-bottom: 0px;
+  }
+
+  .sideBar_main {
+    height: 100%;
+  }
+
+  .sideBarFilterCol,
+  .inboxCol {
+    margin-bottom: 32px;
+  }
+}

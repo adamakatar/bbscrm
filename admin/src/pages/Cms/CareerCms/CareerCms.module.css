@@ -1,0 +1,22 @@
+.mainContainer {
+  padding: 16px;
+  height: calc(100vh - 79px);
+  overflow-y: auto;
+}
+.heading {
+  font-family: "Bebas-Neue-bold";
+  font-size: 35px;
+  color: #242342;
+  margin-bottom: 0;
+  padding-left: 12px;
+}
+.formRow {
+  margin: 16px 0;
+}
+.formCol {
+  margin-bottom: 16px;
+}
+.addMoreBtnDiv {
+  display: flex;
+  justify-content: flex-end;
+}

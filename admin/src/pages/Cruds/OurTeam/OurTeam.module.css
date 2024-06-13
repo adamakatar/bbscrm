@@ -1,0 +1,51 @@
+.mainContainer {
+    padding: 15px;
+    height: calc(100vh - 79px);
+}
+
+.mainHeading {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 15px;
+}
+
+.mainHeading h4 {
+    font-family: "Bebas-Neue-bold";
+    font-size: 35px;
+    color: #242342;
+    margin-bottom: 0;
+}
+
+.actions_btn {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.detail_btn {
+    padding: 10px;
+}
+
+.edit_btn {
+    padding: 8px 20px;
+    background-color: transparent;
+    color: var(--text-color-black);
+    border: 1px solid #d4d4d4;
+}
+
+.paginationDiv {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 30px 20px 30px;
+}
+
+.imgDiv {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.imgDiv img {
+    width: 100%;
+    height: 100%;
+}

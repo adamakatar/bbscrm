@@ -1,0 +1,227 @@
+.container {
+    padding: 40px;
+    overflow-y: scroll;
+    height: calc(100vh - 79px);
+  }
+  
+  .container h3 {
+    font-size: 35px;
+    font-family: "Open-Sans-bold";
+    margin-bottom: 0px;
+  }
+  
+  .headingAndBtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mainCalendarDiv {
+    border: 1px solid #eaf0f4;
+    border-radius: 4px;
+    margin-top: 36px;
+  }
+  
+  .calendarBox {
+    box-shadow: 0px 7px 16px #2c282817;
+    padding: 0 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .todaysDate {
+    color: var(--logo-blue-color) !important;
+  }
+  .DateBox {
+    width: 14.25%;
+    padding-top: 12px;
+    display: flex;
+    justify-content: flex-end;
+    height: 142px;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: flex-start;
+  }
+  
+  .multiEvents {
+    width: 14.25%;
+    padding: 12px 0 6px 0;
+    display: block;
+    height: 142px;
+    overflow-y: scroll;
+  
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+  }
+  
+  .DateBox span,
+  .multiEvents span {
+    color: var(--text-dark-gray);
+    font-weight: 500;
+    padding-right: 12px;
+  }
+  
+  /* daysnamecontainer */
+  .dayNameContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #f7fafc;
+  }
+  
+  .dayNameContainer span {
+    color: #8898aa;
+    font-size: 14px;
+    width: 14.25%;
+    padding: 14px 0;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  
+  /* daysnamecontainer */
+  
+  .headerContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    align-items: center;
+  }
+  
+  .headerContainer div {
+    display: flex;
+    align-items: center;
+  }
+  
+  .monthName {
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.01em;
+    color: var(--dashboard-main-color);
+    font-weight: 600;
+  }
+  
+  .dateDisabled {
+    cursor: no-drop;
+  }
+  
+  .dateDisabled span {
+    color: #8898aa;
+    opacity: 0.3;
+  }
+  .renderEventsMainDiv {
+    display: flex;
+    width: 100%;
+    gap: 5px;
+    flex-wrap: wrap;
+    padding-left: 2px;
+  }
+  
+  .renderEventsDiv {
+    /* width: 100%; */
+  }
+  
+  .renderEventsDiv p {
+    /* padding: 4px 12px; */
+    border-radius: 4px;
+    font-family: "Open-Sans-semiBold";
+    color: var(--white-color);
+    margin-bottom: 6px;
+    text-transform: capitalize;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    /*  */
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    margin-bottom: 0px;
+  }
+  
+  .toggleBtnMain {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .toggleBtnMain p {
+    margin-bottom: 0px;
+  }
+  
+  .switchAndBtn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+  }
+  
+  @media (max-width: 992px) {
+    .DateBox {
+      height: 130px;
+    }
+  
+    .multiEvents {
+      height: 130px;
+    }
+  
+    .container {
+      padding: 24px;
+    }
+    .renderEventsDiv p {
+      width: 18px;
+      height: 18px;
+    }
+  }
+  
+  @media (max-width: 578px) {
+    .DateBox {
+      height: 80px;
+      padding-top: 6px;
+    }
+  
+    .multiEvents {
+      height: 80px;
+      padding-top: 6px;
+    }
+  
+    .container {
+      padding: 16px;
+    }
+  
+    .DateBox span,
+    .multiEvents span {
+      padding-right: 6px;
+      font-size: 12px;
+    }
+  
+    .calendarBox {
+      padding: 0 6px;
+    }
+  
+    .renderEventsDiv p {
+      padding: 4px;
+      font-size: 12px;
+    }
+  
+    .monthName {
+      font-size: 20px;
+    }
+    .renderEventsDiv p {
+      width: 12px;
+      height: 12px;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    .DateBox {
+      height: 85px;
+    }
+  
+    .multiEvents {
+      height: 85px;
+    }
+  }

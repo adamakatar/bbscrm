@@ -1,0 +1,276 @@
+.container {
+    padding: 0 35px;
+    height: 70vh;
+    overflow-y: scroll;
+}
+
+
+.container h6 {
+    margin-bottom: 0px;
+}
+
+.btn_main {
+    margin-top: 20px;
+}
+
+.btn {
+    width: 100%;
+    padding: 17px 0;
+}
+
+.row {
+    row-gap: 20px;
+}
+
+.mb12 {
+    margin-bottom: 12px;
+}
+
+.addMore {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 125px;
+    border-radius: 10px;
+    box-shadow: 0px 0 5px 2px #0000000d;
+}
+
+.addMore p {
+    margin-bottom: 0px;
+}
+
+.allowedFormat {
+    font-size: 14px;
+    color: var(--dashboard-text-color);
+    margin-bottom: 0px;
+}
+
+.titleAndValue label {
+    font-size: 18px;
+    color: var(--dashboard-main-color);
+    font-family: "Open-Sans-bold";
+    margin-bottom: 10px;
+}
+
+.titleAndValue p {
+    font-size: 16px;
+    color: var(--label-color);
+    font-family: "Open-Sans-regular";
+}
+
+.main_container {
+    padding: 40px 30px;
+    height: calc(100vh - 79px) !important;
+    overflow-y: scroll;
+  }
+  
+  .tableContainer {
+    padding: 15px;
+  }
+  
+  .mainHeading_row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .mainHeading_row h4 {
+    font-family: "Open-Sans-bold";
+    color: var(--dashboard-main-color);
+    margin-bottom: 0;
+  }
+  .editProfileDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+  .addNotesBtn {
+    padding: 10px;
+  }
+  .editProfileBtn {
+    background: transparent;
+    padding: 0;
+    margin-top: 7px;
+  }
+  
+  .pdfDownloadIcon {
+    cursor: pointer;
+  }
+  
+  .content_main {
+    margin-top: 20px;
+  }
+  
+  .userDetail_sideBar {
+    background-color: var(--white-color);
+    box-shadow: 0px 5px 25px #52575d1a;
+    border-radius: 20px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .boxWithShadow {
+    box-shadow: 0px 5px 25px #52575d1a;
+    background-color: var(--white-color);
+    border-radius: 20px;
+  }
+  
+  .detailsBox {
+    height: 100%;
+    padding: 30px;
+  }
+  
+  .btnsBox button:last-child {
+    margin-left: 20px;
+  }
+  
+  .mt20 {
+    margin-top: 20px;
+  }
+  
+  .img_main {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 auto;
+    border: 1px solid #d6d6d6;
+    background: #d6d6d6;
+  }
+  
+  .img_main img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: top center;
+  }
+  
+  .userDetail_sideBar h4 {
+    font-family: "Open-Sans-bold";
+    color: var(--dashboard-main-color);
+    font-size: 24px !important;
+    margin-top: 16px;
+    text-transform: capitalize;
+  }
+  
+  .userDetail_sideBar p {
+    color: var(--label-color);
+    line-height: 18px;
+    text-transform: capitalize;
+  }
+  
+  .top {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hr_line {
+    border-bottom: 1px solid #b5b5b5;
+  }
+  
+  .bottom {
+    text-align: left;
+    padding: 20px;
+  }
+  
+  .bottom_content h6 {
+    font-size: 20px !important;
+    font-family: "Open-Sans-bold" !important;
+  }
+  
+  .bottom_content {
+    margin-bottom: 20px;
+  }
+  
+  .bottom_content p {
+    color: var(--label-color);
+    font-size: 17px !important;
+  }
+  
+  .mainContainer {
+    padding: 15px;
+    height: calc(100vh - 79px);
+    overflow-y: scroll;
+  }
+  
+  .headerContainer {
+    padding: 10px 30px 20px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .headerContainer h3 {
+    font-family: "Open-Sans-bold" !important;
+    font-size: 25px;
+    color: var(--dashboard-main-color);
+  }
+  
+  .tableMain_two {
+    margin-top: 20px;
+  }
+  
+  .titleWithValue {
+    margin-bottom: 30px;
+  }
+  
+  .titleWithValue h6 {
+    font-size: 18px;
+    color: var(--dashboard-main-color);
+  }
+  
+  .titleWithValue p {
+    font-size: 16px;
+    color: var(--text-color-black);
+    word-break: break-all;
+  }
+  
+  .toggleBtnMain {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .paginationDiv {
+    padding-block: 10px;
+  }
+  
+  @media screen and (max-width: 1480px) {
+    .img_main {
+      width: 170px;
+      height: 170px;
+    }
+  }
+  
+  @media screen and (max-width: 1336px) {
+    .img_main {
+      width: 150px;
+      height: 150px;
+    }
+  }
+  
+  @media screen and (max-width: 1270px) {
+    .img_main {
+      width: 130px;
+      height: 130px;
+    }
+  
+    .userDetail_sideBar h4 {
+      font-size: 20px !important;
+    }
+  }
+  
+  @media screen and (max-width: 1199px) {
+    .img_main {
+      width: 110px;
+      height: 110px;
+    }
+  
+    .userDetail_sideBar h4 {
+      font-size: 19px !important;
+    }
+  }
+  

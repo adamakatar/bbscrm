@@ -1,0 +1,19 @@
+.addProjectModal_main {
+  padding: 0 35px;
+}
+.addProjectModal_main h4 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: var(--dashboard-main-color);
+  font-family: "Open-Sans-bold";
+}
+.btn_main {
+  margin-top: 20px;
+}
+.btn {
+  width: 100%;
+  padding: 17px 0;
+}
+.addProject_row {
+  row-gap: 30px;
+}

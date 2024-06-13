@@ -1,0 +1,22 @@
+.add_task_main {
+  padding: 0 20px;
+}
+.add_task_btn {
+  width: 100%;
+  background-color: var(--dashboard-main-color);
+  font-family: "Open-Sans-bold" !important;
+  font-size: 13px !important;
+  padding: 17px 0;
+}
+.add_task_main h4 {
+  color: var(--dashboard-main-color);
+  font-family: "Open-Sans-bold" !important;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.input_main {
+  margin-top: 20px;
+}
+.add_task_btn_main {
+  margin-top: 20px;
+}

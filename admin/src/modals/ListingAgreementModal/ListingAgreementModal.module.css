@@ -1,0 +1,22 @@
+.formCol {
+    margin-bottom: 24px;
+  }
+  .BtnCol {
+    margin-top: 16px;
+    display: flex;
+    justify-content: center;
+  }
+  .BtnCol button {
+    padding: 10px 0;
+    width: 120px;
+    font-size: 15px;
+    border-radius: 8px;
+  }
+  .sectionHeader {
+    margin-bottom: 12px;
+    font-size: 22px;
+  }
+  .customInputClass::placeholder {
+    text-transform: none !important;
+  }
+  

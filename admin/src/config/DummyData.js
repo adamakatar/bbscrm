@@ -1,0 +1,20 @@
+export const contactLists = [
+    {id:1, firstName: 'Dai', lastName: 'Mooney', contact: "3036010883", email: "cursus.integer@yahoo.couk", role: 'admin'},
+    {id:2, firstName: 'Tamara', lastName: 'Blevins', contact: "6504693712", email: "augue.sed.molestie@aol.net", role: 'admin'},
+    {id:3, firstName: 'Tate', lastName: 'Terry', contact: "4222885155", email: "fringilla.porttitor.vulputate@outlook.com", role: 'buyer/seller'},
+    {id:4, firstName: 'Iola', lastName: 'Strickland', contact: "4853761447", email: "vitae@google.couk", role: 'buyer/seller'},
+    {id:5, firstName: 'Anjolie', lastName: 'Anderson', contact: "8511724211", email: "lacus@outlook.com", role: 'buyer/seller'},
+    {id:6, firstName: 'Laura', lastName: 'Osborne', contact: "5755858742", email: "sed@protonmail.com", role: 'broker'},
+    {id:7, firstName: 'Quin', lastName: 'Baird', contact: "9332156941", email: "magna.nam@icloud.org", role: 'broker'},
+    {id:8, firstName: 'Karina', lastName: 'Wyatt', contact: "2778841578", email: "mauris.suspendisse@yahoo.net", role: 'broker'},
+    {id:9, firstName: 'Igor', lastName: 'Gray', contact: "8856890222", email: "pharetra.ut@icloud.net", role: 'broker'},
+    {id:10, firstName: 'Travis', lastName: 'Hoffman', contact: "4465130733", email: "gravida.mauris.ut@hotmail.org", role: 'outside-user'},
+    {id:11, firstName: 'Lyle', lastName: 'Briggs', contact: "3724837672", email: "nec.urna.suscipit@outlook.ca", role: 'outside-user'},
+    {id:12, firstName: 'Adrian', lastName: 'Day', contact: "8366957268", email: "id.sapien.cras@aol.com", role: 'outside-user'},
+    {id:13, firstName: 'Beau', lastName: 'Lawrence', contact: "2498046760", email: "at.arcu.vestibulum@yahoo.couk", role: 'outside-user'},
+    {id:14, firstName: 'Colin', lastName: 'Clemons', contact: "5977886266", email: "in.lorem.donec@aol.net", role: 'buyer/seller'},
+    {id:15, firstName: 'Ivana', lastName: 'Kramer', contact: "5709786384", email: "amet.ultricies@hotmail.net", role: 'buyer/seller'},
+    {id:16, firstName: 'Salvador', lastName: 'Bryant', contact: "2866942247", email: "mollis@icloud.couk", role: 'buyer/seller'},
+    {id:17, firstName: 'Reagan', lastName: 'Vance', contact: "8529491877", email: "sit.amet@icloud.com", role: 'broker'},
+    {id:18, firstName: 'Flavia', lastName: 'Rosario', contact: "6886376227", email: "sed.facilisis@protonmail.com", role: 'broker'}
+]

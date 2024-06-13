@@ -1,0 +1,17 @@
+.container {
+    padding: 0 35px;
+}
+
+
+.btn_main {
+    margin-top: 20px;
+}
+
+.btn {
+    width: 100%;
+    padding: 17px 0;
+}
+
+.row {
+    row-gap: 20px;
+}

@@ -1,0 +1,22 @@
+.mainHead {
+  font-size: 18px;
+  font-family: "Open-Sans-bold";
+  color: var(--dashboard-main-color);
+  margin-bottom: 5px;
+}
+
+.text {
+  font-size: 16px !important;
+  color: var(--text-color-black);
+  margin-bottom: 5px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden !important;
+  text-overflow: ellipsis;
+}
+.mainHeading {
+  color: var(--dashboard-main-color);
+  font-family: "Bebas-Neue-bold";
+  margin-bottom: 30px;
+  text-align: center;
+}

@@ -1,0 +1,122 @@
+.mainContainer {
+  padding: 24px;
+  height: calc(100vh - 79px);
+  overflow-y: scroll;
+}
+
+.headerContainer {
+  padding: 10px 20px 20px 20px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.headerContainer h3 {
+  font-family: "Open-Sans-bold" !important;
+  font-size: 35px;
+  color: var(--dashboard-main-color);
+}
+
+
+.teamMemberImgDiv {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  border: 1px solid #707070;
+  position: absolute;
+  top: -22px;
+}
+
+.teamMemberImgDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 50%;
+}
+
+.countMember {
+  position: absolute;
+  left: 125px;
+  top: -7px;
+  font-size: 12px;
+}
+
+.threeDots {
+  cursor: pointer;
+}
+
+.paginationDiv {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 30px 20px 30px;
+}
+
+.addProjectBtn {
+  background-color: var(--dashboard-main-color);
+  color: var(--white-color);
+  padding: 0;
+  width: 143px;
+  height: 43px;
+  border-radius: 3px;
+  font-size: 14px !important;
+  font-family: "Open-Sans-medium" !important;
+  margin-left: 16px;
+}
+
+.dropDown_main {
+  display: flex;
+  justify-content: center;
+}
+
+.btnsDiv {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+
+.folderBox {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 16px;
+}
+
+.folderInnerBox {
+  width: 180px;
+  margin-bottom: 16px;
+}
+
+/* no folder */
+.noFolderMainDiv {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 300px);
+  width: 100%;
+}
+
+.noFolderComp {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 350px;
+  border-radius: 50%;
+  padding: 20px 0px;
+  height: 300px;
+  background: #00000008;
+}
+
+.noFolderComp svg {
+  font-size: 120px;
+  color: var(--dashboard-main-color);
+}
+
+.noFolderComp p {
+  font-size: 18px;
+  color: var(--dashboard-main-color);
+  font-family: "Open-Sans-regular";
+  max-width: 80%;
+  text-align: center;
+}

@@ -1,0 +1,7 @@
+# compiled output
+/node_modules
+/dist
+/src/configs
+.env
+package-lock.json
+rebavi-1d6b5-firebase-adminsdk-5c6ql-d273adec86.json

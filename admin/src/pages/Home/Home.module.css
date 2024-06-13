@@ -1,0 +1,129 @@
+.latestActivities_main {
+  background-color: #f8f8f8;
+  border-radius: 10px;
+  margin: 30px 0;
+  position: relative;
+}
+
+.emails_main {
+  background-color: #e5f5ff;
+  border-radius: 10px;
+  margin: 30px 0;
+  position: relative;
+}
+
+.email_inner {
+  padding: 50px 30px;
+  height: 555px;
+  overflow-y: scroll;
+}
+
+.noEmailDiv {
+  height: inherit;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.latestActivities_inner {
+  padding: 46px 30px;
+  height: 555px;
+  overflow-y: scroll;
+}
+
+.home_main {
+  padding: 30px 40px;
+  height: calc(100vh - 79px);
+  overflow-y: auto;
+}
+
+.main_heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_heading h4 {
+  color: var(--dashboard-main-color);
+  font-family: "Open-Sans-bold";
+}
+
+.latestActivities_row {
+  margin-bottom: 25px;
+}
+
+.header {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+}
+
+.textCursor {
+  cursor: pointer;
+}
+
+.eventDetail {
+  border-bottom: 1px solid #b5b5b5;
+  margin-top: 15px;
+}
+
+.eventDetail p,
+.eventDetail h6 {
+  font-size: 14px;
+  color: var(--dashboard-main-color);
+  margin-bottom: 10px;
+}
+
+.eventDetail .aCenter {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.eventDetail h6 {
+}
+
+.imgsDiv {
+  display: flex;
+  align-items: center;
+}
+
+.teamMemberImgDiv {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  border: 1px solid #707070;
+  background: #d6d6d6;
+}
+
+.teamMemberImgDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 50%;
+}
+
+.countMember {
+  font-size: 12px;
+  margin-left: 10px;
+  font-family: "Open-Sans-medium";
+}
+
+.para {
+  margin-bottom: 0px;
+  font-family: "Open-Sans-medium";
+  font-size: 14px;
+  color: var(--dashboard-text-color);
+  text-transform: capitalize;
+}
+
+.events {
+  margin-block: 30px;
+}
+@media (max-width: 992px) {
+  .calendarCol {
+    margin-bottom: 24px;
+  }
+}

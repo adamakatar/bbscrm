@@ -1,0 +1,40 @@
+.mainContainer {
+  padding: 50px;
+  height: calc(100vh - 79px);
+  overflow-y: scroll;
+}
+
+.mainContainer h4 {
+  color: var(--dashboard-main-color);
+  font-family: "Bebas-Neue-bold";
+  margin-bottom: 30px;
+}
+
+.mainHead {
+  font-size: 18px;
+  font-family: "Open-Sans-bold";
+  color: var(--dashboard-main-color);
+  margin-bottom: 5px;
+}
+
+.text {
+  font-size: 16px !important;
+  color: var(--text-color-black);
+  margin-bottom: 0px;
+  text-transform: capitalize;
+}
+
+.emailText {
+  text-transform: lowercase;
+}
+
+.mainRow {
+  row-gap: 40px;
+}
+
+@media screen and (max-width:992px) {
+  .mainRow {
+    row-gap: 20px;
+  }
+
+}

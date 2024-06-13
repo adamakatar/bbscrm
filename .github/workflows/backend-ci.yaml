@@ -1,0 +1,42 @@
+name: Brokerage Backend CI/CD
+
+on:
+  push:
+    branches:
+      - test
+
+jobs:
+  build_backend:
+    runs-on: ubuntu-latest
+    steps: 
+
+      - name: Checkout Repository
+        uses: actions/checkout@v2
+
+      - name: Install Node
+        uses: actions/setup-node@v2
+        with:
+            node-version: '18'
+
+      - name: List
+        run: ls
+        working-directory: /home/runner/work/bbscrm/bbscrm
+        
+      - name: Install module
+        run: npm install --force
+        working-directory: backend
+
+      - name: Build project
+        run: npm run build
+        working-directory: backend
+
+      - name: Configure SSH
+        uses: webfactory/ssh-agent@v0.5.3
+        with:
+            ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+
+      - name: Change owner of directory
+        run: ssh -o StrictHostKeyChecking=no root@77.37.86.28 'sudo chown -R root:root ../home/projects/brokerage-backend/build'
+      
+      - name: Deploy with rsync
+        run: rsync -e 'ssh -o StrictHostKeyChecking=no' -r /home/runner/work/bbscrm/bbscrm/backend/build root@77.37.86.28:../home/projects/brokerage-backend/build

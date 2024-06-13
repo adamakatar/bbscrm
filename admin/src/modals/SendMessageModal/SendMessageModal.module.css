@@ -1,0 +1,13 @@
+.btnCol {
+  margin-top: 12px;
+  display: flex;
+  justify-content: center;
+}
+.btnCol button {
+  font-size: 16px;
+  padding: 7px 0;
+  width: 100px;
+}
+.formCol {
+  margin-bottom: 18px;
+}

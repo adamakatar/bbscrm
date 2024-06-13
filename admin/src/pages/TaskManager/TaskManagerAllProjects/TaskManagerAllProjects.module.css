@@ -1,0 +1,75 @@
+.mainContainer {
+  padding: 15px;
+  height: calc(100vh - 79px);
+}
+
+.headerContainer {
+  padding: 10px 30px 20px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerContainer h3 {
+  font-family: "Bebas-Neue-bold";
+  font-size: 35px;
+  color: #242342;
+}
+
+.inputDiv {
+  display: flex;
+}
+
+.teamMemberImgDiv {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  border: 1px solid #707070;
+  background: #d6d6d6;
+  position: absolute;
+  top: -22px;
+}
+
+.teamMemberImgDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 50%;
+}
+
+.countMember {
+  position: absolute;
+  left: 125px;
+  top: -7px;
+  font-size: 12px;
+}
+
+.threeDots {
+  cursor: pointer;
+}
+
+.paginationDiv {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 30px 20px 30px;
+}
+
+.addProjectBtn {
+  background-color: var(--dashboard-main-color);
+  color: var(--white-color);
+  padding: 0;
+  width: 143px;
+  height: 43px;
+  border-radius: 3px;
+  font-size: 14px !important;
+  font-family: "Open-Sans-medium" !important;
+  margin-left: 16px;
+}
+
+.linkText {
+  text-decoration: underline;
+  cursor: pointer;
+  color: var(--dashboard-main-color);
+  font-family: "Open-Sans-medium" !important;
+}

@@ -1,0 +1,15 @@
+.addMoreBtnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  cursor: pointer;
+  margin-left: 10px;
+  width: max-content;
+}
+
+.addMoreBtnContainer span {
+  color: var(--text-dark-gray);
+  font-family: "Open-Sans-regular" !important;
+  margin: 0px 5px;
+  font-size: 13px;
+}

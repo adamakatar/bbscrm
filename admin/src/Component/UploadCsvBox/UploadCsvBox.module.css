@@ -1,0 +1,118 @@
+.box {
+  user-select: none;
+}
+
+.box label {
+  font-size: 18px;
+  margin-top: 20px;
+  color: var(--label-color);
+  font-family: "Open-Sans-regular";
+}
+
+.csvBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  box-shadow: 0px 0 5px 2px #0000000d;
+  position: relative;
+  flex-direction: column;
+}
+
+.uploadImageBox {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 0 5px 2px #0000000d;
+  position: relative;
+}
+
+.uploadBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.uploadBox .icon {
+  height: 75px;
+  width: 75px;
+  color: var(--label-color);
+}
+
+.uploadBox .uploadIcon {
+  position: absolute;
+  right: 12px;
+  top: 10px;
+  background-color: var(--dashboard-main-color);
+  width: 43px;
+  height: 43px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.uploadBox .uploadIcon svg {
+  color: var(--white-color);
+  font-size: 20px;
+}
+
+.editAndDelete .icon {
+  background-color: var(--dashboard-main-color);
+  padding: 8px;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 0px 0px 3px 1px #afa8a8;
+}
+
+.editAndDelete .icon svg {
+  color: var(--white-color);
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  display: inherit;
+}
+
+.closeIcon {
+  position: absolute;
+  top: 10px;
+  left: 12px;
+  background-color: var(--dashboard-main-color);
+  padding: 8px;
+  border-radius: 50%;
+  cursor: pointer;
+  box-shadow: 0px 0px 3px 1px #afa8a8;
+  z-index: 2;
+}
+
+.closeIcon svg {
+  color: var(--white-color);
+  vertical-align: middle;
+  display: flex;
+}
+
+.uploadText {
+  display: block;
+  font-size: 14px;
+  font-family: "Open-Sans-bold";
+}
+
+.editAndDeleteBtns {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-direction: column;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.viewIcon {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}

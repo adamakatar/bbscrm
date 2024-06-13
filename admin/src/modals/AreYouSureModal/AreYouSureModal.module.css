@@ -1,0 +1,58 @@
+.content {}
+
+.content h4 {
+  text-align: center;
+  font-size: 25px;
+}
+
+.btnsBox {
+  display: flex;
+  justify-content: center;
+  margin-top: 30px;
+}
+
+.yesBtn {
+  background-color: var(--dashboard-main-color);
+  padding: 10px 45px;
+}
+
+.noBtn {
+  background-color: var(--dashboard-text-color);
+  padding: 10px 45px;
+  margin-left: 40px;
+}
+
+/* For Header */
+.iconDiv {
+  margin-bottom: 6px;
+}
+
+.modalHeader {
+  padding: 0px;
+}
+
+.headingText {
+  font-size: 24px;
+  color: var(--white-color);
+}
+
+.message {
+  font-size: 18px;
+  font-weight: 500;
+  color: var(--dashboard-text-color);
+}
+
+.aCenter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}

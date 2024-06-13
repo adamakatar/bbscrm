@@ -1,0 +1,69 @@
+.container {
+    width: 100%;
+    height: 100%;
+}
+
+.controls {
+    width: 20%;
+    padding: 1rem;
+    background: #14161a;
+    color: #fff;
+}
+
+.controls input {
+    border: none;
+}
+
+.map-container {
+    width: 100%;
+    height: 100%;
+}
+
+.combobox-input {
+    width: 100%;
+}
+
+.comboOption {
+
+    font-size: 15px;
+}
+
+.comboRoot {
+    width: 140%;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 11px rgb(34 34 34 / 21%);
+    border-radius: 20px;
+    padding: 5% 10% !important;
+    margin-top: 5% !important;
+    margin-left: -5% !important;
+    top: 83%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    transform: translate(-50%, 10px);
+    left: 62%;
+    right: 30%;
+
+}
+
+.combobox-input::placeholder {
+    color: #7a7a7a;
+    font-size: 15px;
+
+}
+
+.combobox-input:active {
+    border: none;
+    outline: none;
+}
+
+.deleteIcon {
+    position: absolute;
+    top: 38%;
+    right: 2%;
+    color: #c5c5c5;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}

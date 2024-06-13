@@ -1,0 +1,131 @@
+.mainContainer {
+  padding: 15px;
+  height: calc(100vh - 79px);
+}
+
+.headerContainer {
+  padding: 10px 15px 20px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headerContainer h3 {
+  font-family: "Bebas-Neue-bold";
+  font-size: 35px;
+  color: #242342;
+  margin-bottom: 0px;
+}
+
+.inputDiv {
+  display: flex;
+}
+
+
+.teamMemberImgDiv {
+  width: 50px;
+  border-radius: 50%;
+  height: 50px;
+  border: 1px solid #d6d6d6;
+  background: #d6d6d6;
+  position: absolute;
+  top: -22px;
+}
+
+.teamMemberImgDiv img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: top center;
+  border-radius: 50%;
+}
+
+.countMember {
+  position: absolute;
+  left: 125px;
+  top: -7px;
+  font-size: 12px;
+}
+
+.threeDots {
+  cursor: pointer;
+}
+
+.paginationDiv {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 30px 20px 30px;
+}
+
+.addProjectBtn {
+  background-color: var(--dashboard-main-color);
+  color: var(--white-color);
+  padding: 8px 20px;
+  border-radius: 3px;
+  font-size: 14px !important;
+  font-family: "Open-Sans-medium" !important;
+  margin-left: 10px;
+}
+
+@media screen and (max-width:1100px) {
+  .headerContainer {
+    flex-direction: column;
+    align-items: unset;
+  }
+
+  .headerContainer .inputDiv {
+    align-self: flex-end;
+  }
+}
+
+@media screen and (max-width:992px) {
+  .headerContainer h3 {
+    font-size: 28px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .headerContainer {
+    flex-direction: column;
+    align-items: unset;
+  }
+
+  .headerContainer .inputDiv {
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+
+
+}
+
+@media screen and (max-width:575px) {
+  .addProjectBtn {
+    padding: 8px 16px;
+    font-size: 12px !important;
+    margin-left: 8px;
+  }
+
+  .headerContainer .inputDiv>div>div {
+    width: 230px !important;
+  }
+}
+
+@media screen and (max-width:425px) {
+  .addProjectBtn {
+    padding: 8px 16px;
+    font-size: 11px !important;
+    margin-left: 8px;
+  }
+
+  .headerContainer .inputDiv>div>div {
+    width: 200px !important;
+  }
+
+  .headerContainer .inputDiv {
+    align-self: flex-start;
+  }
+
+  .mainContainer {
+    padding: 10px;
+  }
+}

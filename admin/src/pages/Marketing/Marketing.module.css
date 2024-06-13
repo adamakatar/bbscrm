@@ -1,0 +1,246 @@
+.content {
+  padding: 15px;
+  height: calc(100vh - 79px);
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px 15px;
+}
+
+.head h5 {
+  font-family: "Bebas-Neue-bold";
+  font-size: 35px;
+  color: #242342;
+  margin-bottom: 0;
+}
+
+.head .addTempBtn {
+  border-radius: 3px;
+}
+
+.row {
+  height: calc(100vh - 230px);
+  padding: 0px 15px;
+}
+
+.row>div {
+  height: inherit;
+}
+
+/* Left Box */
+.leftBox {
+  background-color: var(--white-color);
+  box-shadow: 0px 5px 25px #52575d1a;
+  border-radius: 20px;
+  height: inherit;
+}
+
+.leftBox .leftHead {
+  display: flex;
+  align-items: center;
+  padding: 30px 30px 22px 30px;
+}
+
+.leftBox .leftHead h4 {
+  font-size: 26px;
+  color: var(--dashboard-main-color);
+  font-family: "Open-Sans-semiBold";
+  margin-left: 12px;
+  margin-bottom: 0px;
+}
+
+.leftBox .leftHead svg {
+  font-size: 23px;
+}
+
+.leftBox .leftContent {
+  height: calc(100% - 156px);
+  overflow-y: scroll;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+
+.paginationDiv {
+  padding: 20px 30px 20px 30px;
+}
+
+/* .leftBox .leftContent::-webkit-scrollbar {
+    width: 5px;
+}
+
+.leftBox .leftContent::-webkit-scrollbar-track {
+    background-color: var(--dashboard-main-color);
+}
+
+.leftBox .leftContent::-webkit-scrollbar-thumb {
+    background-color: red;
+} */
+
+/* Right Box */
+.rightBox {
+  background-color: var(--white-color);
+  box-shadow: 0px 5px 25px #52575d1a;
+  border-radius: 20px;
+  height: inherit;
+  padding: 50px 42px;
+  overflow-y: scroll;
+  position: relative;
+}
+
+.rightBox .heading {
+  font-size: 29px;
+  font-family: "Open-Sans-semiBold";
+  color: var(--dashboard-main-color);
+  margin-bottom: 54px;
+}
+
+.backBtn {
+  position: absolute;
+  top: 15px;
+  left: 30px;
+  background-color: var(--white-color);
+  color: var(--dashboard-main-color);
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+  padding: 0px;
+}
+
+.backBtn svg {
+  width: 30px;
+  color: var(--dashboard-main-color);
+}
+
+.mb20 {
+  margin-bottom: 20px;
+}
+
+/* Box */
+.box {
+  padding: 20px 30px;
+  border-bottom: 1px solid #f0f0f0;
+  cursor: pointer;
+  position: relative;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+
+}
+
+.box h6 {
+  font-size: 16px;
+  font-family: "Open-Sans-medium";
+  color: var(--dashboard-main-color);
+  text-transform: capitalize;
+}
+
+.box p {
+  font-size: 12px;
+  color: var(--label-color);
+  margin-top: 8px;
+  text-transform: capitalize;
+  overflow: hidden;
+  height: 40px;
+  letter-spacing: 0.5px;
+}
+
+
+.box p ul {
+  overflow: hidden;
+  height: 40px;
+}
+
+/* ,
+.box p em,
+.box p strong,
+.box p u,
+.box p li */
+/* {
+  display: block;
+  padding-left: 0px;
+  text-decoration: none;
+
+} */
+
+.editAndDelete {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  opacity: 0;
+}
+
+.box:hover {
+  background-color: #e5f5ff80;
+  transition: all 0.3s linear;
+}
+
+.selectedBox .editAndDelete {
+  transition: opacity 0.4s;
+  opacity: 1;
+}
+
+.editAndDelete .icon {
+  background-color: var(--dashboard-main-color);
+  padding: 6px;
+  border-radius: 7px;
+  cursor: pointer;
+  box-shadow: 0px 0px 3px 1px #afa8a8;
+}
+
+.editAndDelete .icon svg {
+  color: var(--white-color);
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  display: inherit;
+}
+
+.selectedBox {
+  background-color: #e5f5ff !important;
+}
+
+.selectedBox p {
+  color: var(--text-color-black);
+
+}
+
+.textArea {
+  height: 200px;
+}
+
+.newMessageHeaderContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.viewTemplateDesc {
+  background-color: var(--disabled-input-color);
+  color: #c9c9c9;
+  -webkit-user-select: none;
+  user-select: none;
+  padding: 16px;
+  border-radius: 16px;
+  height: 200px;
+  overflow-y: scroll;
+  box-shadow: 0px 0 5px 2px #0000000d;
+}
+
+.viewTemplateDesc p {
+  margin-bottom: 0px;
+}
+
+.viewTemplateDescLabel {
+  color: var(--disabled-label-color);
+  text-transform: capitalize;
+  font-family: "Open-Sans-bold";
+  font-size: 16px;
+  margin-bottom: 8px;
+}

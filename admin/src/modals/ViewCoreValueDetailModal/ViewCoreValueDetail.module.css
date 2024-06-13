@@ -1,0 +1,15 @@
+.MainDiv {
+  display: flex;
+  gap: 7px;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.MainDiv p,
+.MainDiv h6,
+.mainHead {
+  margin-bottom: 0;
+}
+
+.descText {
+  margin-top: 5px;
+}

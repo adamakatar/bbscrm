@@ -1,0 +1,65 @@
+.btnCol {
+  display: flex;
+  justify-content: center;
+}
+
+.btnCol button {
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 8px 24px;
+}
+
+.inputCol {
+  margin-bottom: 20px;
+}
+
+.bulletContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: var(--white-color);
+  box-shadow: 0px 0 5px 2px #0000000d;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+  justify-content: space-between;
+}
+
+.bulletContainer span {
+  font-family: "Open-Sans-regular";
+  font-size: 14px;
+  color: var(--text-color-black);
+  letter-spacing: 1.4px;
+  width: 100%;
+  margin: 0px 10px;
+}
+
+.inputAndAddBtnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.titleText {
+  display: contents;
+  color: var(--dashboard-main-color);
+  text-transform: capitalize;
+  font-family: "Open-Sans-bold";
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.icon {
+  cursor: pointer;
+}
+
+.bulletInnerContainer {
+  display: flex;
+  align-items: center;
+}
+
+.mainNotesDiv {
+  height: 400px;
+  overflow-y: auto;
+}

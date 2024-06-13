@@ -1,0 +1,58 @@
+.inputBox {
+    border-bottom: 1px solid black;
+    margin: 0px 10px 0px 5px;
+    width: 50px;
+    height: 15px;
+  }
+  
+  .mainContainer {
+    max-width: 80%;
+    margin: 32px auto;
+  }
+  
+  .headerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logoDiv {
+    width: 235px;
+    height: 100px;
+    margin-bottom: 30px;
+  }
+  
+  .logoDiv img {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .btnsContainer {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .tableStrippedColor {
+    background-color: #d9e2f3 !important;
+  }
+  
+  .dateInput {
+    width: auto;
+  }
+  
+  .closingBuyerInput {
+    width: 40%;
+  }
+  
+  @media (max-width: 1440px) {
+    .mainContainer {
+      max-width: 90%;
+    }
+  }
+  
+  @media (max-width: 991px) {
+    .mainContainer {
+      max-width: 94%;
+    }
+  }

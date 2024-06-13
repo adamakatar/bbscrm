@@ -1,0 +1,64 @@
+.taskManager_main {
+  padding: 40px 40px 0px 40px;
+  height: calc(100vh - 79px);
+  overflow-y: scroll;
+}
+
+.head_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.main_heading h4 {
+  color: var(--dashboard-main-color);
+  font-family: "Open-Sans-bold";
+  text-transform: capitalize;
+}
+
+.addStatus_btn {
+  background-color: var(--dashboard-main-color);
+  font-family: "Open-Sans-regular" !important;
+  padding: 12px 45px;
+  font-size: 13px !important;
+}
+
+.todo_main h6 {
+  font-family: "Open-Sans-bold";
+  color: var(--dashboard-text-color);
+  text-transform: capitalize;
+}
+
+.todo_main_row {
+  margin-top: 50px;
+}
+
+.singleCard_row {
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.tasksMainContainer {
+  padding-top: 30px;
+  padding-bottom: 10px;
+  min-height: 50vh;
+}
+
+.selectTemplateContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 60vh;
+}
+
+.selectTemplateContainer p:nth-child(2) {
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.selectTemplateContainer p:nth-child(3) {
+  font-weight: 400;
+  font-size: 20px;
+  color: #818181;
+}

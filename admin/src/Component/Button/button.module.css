@@ -1,0 +1,12 @@
+.btn {
+  letter-spacing: -0.36px;
+  outline: none;
+  border: none;
+  font-family: "Open-Sans-medium";
+  background-color: var(--action-btn-color);
+  color: var(--white-color);
+  padding: 12px 30px;
+  border-radius: 3px;
+  font-size: 13px;
+
+}

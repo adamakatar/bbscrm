@@ -1,0 +1,16 @@
+.container h6 {
+  margin-bottom: 0px;
+}
+
+.btn_main {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  padding: 10px 24px;
+}
+.formCol {
+  margin-bottom: 18px;
+}

@@ -1,0 +1,64 @@
+.bullet_main {
+  width: 100%;
+}
+.email_date_main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.dateTime_main {
+  display: flex;
+  gap: 30px;
+}
+.email_para {
+  display: flex;
+  align-items: center;
+  font-family: "Open-Sans-bold";
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.bullet_main p {
+  font-size: 14px !important;
+  color: var(--dashboard-main-color) !important;
+  margin-bottom: 0;
+}
+.bullet_icon {
+  color: #02528a;
+  font-size: 20px;
+  margin-right: 6px;
+}
+.dateTime_main p {
+  color: #686868 !important;
+}
+.notification_text {
+  margin-top: 8px;
+  margin-left: 23px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-line-clamp: 1;
+  -webkit-box-orient: vertical;
+}
+.hr_line {
+  border-bottom: 1px solid #b5b5b5;
+  margin: 10px 0;
+}
+.date_main {
+  display: flex !important;
+  justify-content: start !important;
+  margin-bottom: 10px !important;
+}
+.bullet_icon_two {
+  color: var(--dashboard-main-color) !important;
+  font-size: 20px;
+  margin-right: 6px;
+}
+
+@media screen and (max-width: 1200px) {
+  .dateTime_main {
+    gap: 15px;
+  }
+}

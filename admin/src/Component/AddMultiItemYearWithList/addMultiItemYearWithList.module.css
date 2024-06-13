@@ -1,0 +1,32 @@
+.mainContainer {
+  width: 100%;
+}
+
+.titleText {
+  display: contents;
+  color: var(--dashboard-main-color);
+  text-transform: capitalize;
+  font-family: "Open-Sans-bold";
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.inputAndAddBtnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.inputAndAddBtnContainerWithoutTitle {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-bottom: 10px;
+}
+
+.mainDropDownContainer {
+}
+
+.rowContainer {
+  margin-top: 10px;
+}

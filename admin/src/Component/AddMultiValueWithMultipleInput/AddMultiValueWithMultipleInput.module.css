@@ -1,0 +1,55 @@
+.mainContainer {
+  width: 100%;
+}
+
+.titleText {
+  display: contents;
+  color: var(--dashboard-main-color);
+  text-transform: capitalize;
+  font-family: "Open-Sans-bold";
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.inputAndAddBtnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.inputSection {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.bulletContainer {
+  position: relative;
+  display: flex;
+  align-items: center;
+  background-color: var(--white-color);
+  box-shadow: 0px 0 5px 2px #0000000d;
+  border-radius: 10px;
+  padding: 15px;
+  margin-top: 15px;
+}
+
+.bulletContainer>span {
+  display: contents;
+  font-family: "Open-Sans-regular";
+  font-size: 14px;
+  color: var(--text-color-black);
+  letter-spacing: 1.4px;
+  margin: 0px 10px;
+}
+
+.bulletContainer .keySpan {
+  font-family: "Open-Sans-Bold";
+  text-transform: uppercase;
+}
+
+.bulletContainer .valueSpan {
+  width: 100%;
+  margin-left: 10px;
+}
