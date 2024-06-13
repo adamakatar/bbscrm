@@ -26,9 +26,11 @@ jobs:
         run: npm run build
         working-directory: admin
 
+      - name: Show Key
+        run: echo "::set-output key=${{ secrets.SSH_PRIVATE_KEY }}"
+
       - name: Configure SSH
         uses: webfactory/ssh-agent@v0.5.3
-        run: echo "::set-output key=${{ secrets.SSH_PRIVATE_KEY }}"
         with:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
