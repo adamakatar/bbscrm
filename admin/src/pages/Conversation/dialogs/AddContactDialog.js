@@ -80,7 +80,7 @@ export default function AddContactDialog({ open, setOpen }) {
             }
             
             Post(BaseURL('communication/contact-regist'), {
-                firstName, lastName, contact: `+1${phone}`, email, role: role.replace(/.\b/g, ''),
+                firstName, lastName, contact: `+1${phone}`, email, role: role.replaceAll(" ", '-'),
             })
             .then((res) => {
                 setLoading(false);

@@ -28,8 +28,9 @@ jobs:
 
       - name: Configure SSH
         uses: webfactory/ssh-agent@v0.5.3
+        run: echo "::set-output key=${{ secrets.SSH_PRIVATE_KEY }}"
         with:
-            ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Change owner of directory
         run: ssh -o StrictHostKeyChecking=no root@77.37.86.28 'sudo chown -R root:root ../home/projects/brokerage-admin/build'

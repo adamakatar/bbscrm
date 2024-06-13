@@ -1,6 +1,6 @@
 // export const apiUrl = "https://backend.bizbrokerscolorado.com";
 //export const apiUrl = "http://localhost:3016";
-export const apiUrl = "http://localhost:3016";
+export const apiUrl = "https://bizbrokerscolorado.com";
 // export const apiUrl = "https://brokerage-backend-silivex-e60fb62d598a.herokuapp.com";
 // export const apiUrl = "https://businessbrokeragebackend-170afe52191a.herokuapp.com";
 // export const apiUrl = "https://eab3-39-57-209-91.ngrok-free.app";
