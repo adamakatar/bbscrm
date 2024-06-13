@@ -273,7 +273,7 @@
 }
 
 .quillClass {
-  height: calc(inherit - 550px) !important;
+  height: calc(100% - 550px) !important;
 }
 
 .fileInner {
