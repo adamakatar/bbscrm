@@ -17,10 +17,6 @@ jobs:
         uses: actions/setup-node@v2
         with:
             node-version: '18'
-
-      - name: List
-        run: ls
-        working-directory: /home/runner/work/bbscrm/bbscrm
         
       - name: Install module
         run: npm install --force
