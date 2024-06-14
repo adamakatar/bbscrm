@@ -32,7 +32,7 @@ jobs:
           ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
 
       - name: Change owner of directory
-        run: ssh -o StrictHostKeyChecking=no root@77.37.86.28 'sudo chown -R root:root ../home/projects/brokerage-backend/build'
+        run: ssh -o StrictHostKeyChecking=no root@77.37.86.28 'sudo chown -R root:root /home/projects/brokerage-backend/dist'
       
       - name: Deploy with rsync
-        run: rsync -e 'ssh -o StrictHostKeyChecking=no' -r /home/runner/work/bbscrm/bbscrm/backend/build root@77.37.86.28:../home/projects/brokerage-backend/build
+        run: rsync -e 'ssh -o StrictHostKeyChecking=no' -r /home/runner/work/bbscrm/bbscrm/backend/dist root@77.37.86.28:/home/projects/brokerage-backend/dist
