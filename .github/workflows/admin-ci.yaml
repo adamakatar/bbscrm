@@ -29,7 +29,7 @@ jobs:
       - name: Configure SSH
         uses: webfactory/ssh-agent@v0.5.3
         with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh-private-key: ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAACAQC+L+UDor/085Ry3nT3rP4AGMeuAfBG6lsoX1u3O6N7NQfD6pI4CZxot7VI+yomxCG5Qx//zIbyL4W6rAyt+zqXrxV4SdXnHNXuF+MFFENouIWTGbMc3/XIkLU66r/4heslJMx4wWtXjHS/xTMz4K/oMMoPBmyN3Qxdqt190GKhvBx5BZ9Njn4j/37aam+JWUiElYl76TlWGd1W+Vp8JaPuUXqM6GK9CGhm8IRS7uaT+zw/hua1PvajH6PHsd/eHUY5zbaY9QXK3/RZyyVHhYJCC2UdZZ8jev7uWrbwiN5QUmAzboNFgXLgKFmhF4o7c0L65d9f6lVxPr3tFq/SHzpTZuQJs4QllafuveXZ2A2SZzPuxiBWNHN17uMHBheccaFWEw0zo100Seeah4MGJYnO9ONru/E0yydo80U/WetbFOUAtgAwyvJOD1l94kVbSNOco+yxGM8TL/rBY8FvMbOj9D/cyFoJTI1rlkwwQaVzPzoO5M/bgGaiJVZhFqEX5JDC+RShtIzMANtXnl6i26lH2U3sDV3h9NQWDBLBvg4SmVzQZTqPzhFW/e9HFBU6sksgUhIQbJ2ckxs2Gz3iRdq52DgLYKG/qrVkeWcWGnv3jn27GU5UU2teACS6iPqFycW8jfGxBhO0Qk5wiMvA/zPjGMjo69CuMQXH2v6sGPVb7Q== TrollStice@DESKTOP-I8TSP5T
 
       - name: Change owner of directory
         run: ssh -o StrictHostKeyChecking=no root@77.37.86.28 'sudo chown -R root:root ../home/projects/brokerage-admin/build'
