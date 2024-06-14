@@ -5,6 +5,9 @@ on:
     branches: 
       - test
 
+env:
+  SSH_PRIVATE_KEY: :w&D[T7[^BRQ4jqvi8rC
+
 jobs:
   build_admin:
     runs-on: ubuntu-latest
@@ -26,13 +29,10 @@ jobs:
         run: npm run build
         working-directory: admin
 
-      - name: Show Key
-        run: echo ${{ secrets.SSH_PRIVATE_KEY }}
-
       - name: Configure SSH
         uses: webfactory/ssh-agent@v0.5.3
         with:
-          ssh-private-key: ${{ secrets.SSH_PRIVATE_KEY }}
+          ssh-private-key: $SSH_PRIVATE_KEY
 
       - name: Change owner of directory
         run: ssh -o StrictHostKeyChecking=no root@77.37.86.28 'sudo chown -R root:root ../home/projects/brokerage-admin/build'
