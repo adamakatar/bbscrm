@@ -27,7 +27,7 @@ jobs:
         working-directory: admin
 
       - name: Show Key
-        run: echo "::set-output key=${{ secrets.SSH_PRIVATE_KEY }}"
+        run: echo "${{ secrets.SSH_PRIVATE_KEY }}"
 
       - name: Configure SSH
         uses: webfactory/ssh-agent@v0.5.3
