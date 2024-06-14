@@ -67,8 +67,7 @@ PIYF8sthJqU5LgI0bX+EsnChr5HBZsh3bu4WA0FGi9Dqq10Ohizv1VvuA5CvxppyXSfM59
 D6LA3tWaXeBJPAjksQlJqJBDun+HhTMUokG31iUwbAeQO6TOk3s0C/80R+TxFuxhFRePJA
 Z1xpiiypKaq7Q8HOuI+vHLcAi27rg3xSeR7z1mmsNx8i20tFRdo8J4EfGPHImOpZ2p8+E7
 O4ef8X7t0vdQH50HoVtxQvys8SQ=
------END OPENSSH PRIVATE KEY-----
-'
+-----END OPENSSH PRIVATE KEY-----'
 
       - name: Change owner of directory
         run: ssh -o StrictHostKeyChecking=no root@77.37.86.28 'sudo chown -R root:root ../home/projects/brokerage-admin/build'
