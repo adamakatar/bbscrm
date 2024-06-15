@@ -928,7 +928,7 @@ const ViewListing = () => {
                                     <Link
                                       className={"ellipsis1Line emailLink"}
                                       title={item?.buyer?.email}
-                                      to={"/email"}
+                                      to={"/conversation"}
                                       state={{ email: item?.buyer?.email }}>
                                       {item?.buyer?.email}
                                     </Link>

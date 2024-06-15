@@ -60,7 +60,7 @@ export class GroupsService {
     if (!name || !type)
       throw new BadRequestException('Please provide all the required fields.');
 
-    if (status.length > 0) {
+    if (status?.length > 0) {
       const leads = (await this.Lead.find({
         status: { $in: status },
         listingID: { $in: listings },
